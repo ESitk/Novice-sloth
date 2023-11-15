@@ -1,1 +1,88 @@
+  body {
+        max-width: 1200px;
+        display: flexbox;
+        flex-basis: center;
+        align-content: justify;
+        margin: 0 auto;
+        background-color: lightgreen;
+        position: absolute;
+      }
+
+      header {
+        height: 150px;
+      }
+
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+      }
+
+      h1 {
+        font-size: 2rem;
+        line-height: 1.5rem;
+        margin: 0 0 0 32.5px;
+        padding: 0 0 0 17px;
+      }
+
+      main {
+        background: blue;
+      }
+
+      article {
+        inline: flex;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 2;
+      }
+
+      iframe {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+
+      /* further info links */
+
+      .further-info {
+        position: absolute;
+        scroll-behavior: sticky;
+        padding: 40px 10px;
+        background: pink;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+
+      .further-info a {
+        width: 25%;
+        display: block;
+        box: border-box;
+        border-size: 2px 2px 2px 2px;
+        border-weight: regular;
+        border-color: yellow;
+        float: right;
+        link-style: none;
+        text-style: none;
+        color: black;
+      }
+
+      .further-info img {
+        max-width: 100%;
+        overlay-color: red;
+      }
+
+      .clearfix {
+        clear: both;
+      }
+
+      .red-panda img {
+        display: block;
+        max-width: 100%;
+      }
 
