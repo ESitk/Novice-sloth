@@ -1,5 +1,9 @@
 {
-    "recommendations": [
-        "codespaces-contrib.codeswing"
+    "configurations": [
+        "name" : "Launch Program",
+        "program": "${workspaceFolder}/index.html",
+        "request": "launch",
+        "url": "https://localhost/3000"
+        
     ]
 }
